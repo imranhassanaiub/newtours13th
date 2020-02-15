@@ -30,6 +30,6 @@ public class FlightFinderTest {
 	public void FindAFlightTest() {
 
 		driver.findElement(By.xpath(XpathUtils.FlightFinder.OneWay_BTN)).click();
-
+        System.out.println("Git test");
 	}
 }
