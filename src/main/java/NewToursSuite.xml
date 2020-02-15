@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "NewToursSite Automation Test">
+
+   <test name = "Login Test">
+      <classes>
+         <class name = "com.bitm.Newtours13th.Test.LoginTest" />
+         <class name = "com.bitm.Newtours13th.Test.FlightFinderTest" />
+      </classes>
+   </test>
+   
+</suite>  

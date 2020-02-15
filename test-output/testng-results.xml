@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewToursSite Automation Test" duration-ms="19675" started-at="2020-02-15T15:16:02 BDT" finished-at="2020-02-15T15:16:22 BDT">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="19675" started-at="2020-02-15T15:16:02 BDT" finished-at="2020-02-15T15:16:22 BDT">
+      <class name="com.bitm.Newtours13th.Test.LoginTest">
+        <test-method status="PASS" signature="checkloginpagetitle()[pri:1, instance:com.bitm.Newtours13th.Test.LoginTest@23e028a9]" name="checkloginpagetitle" duration-ms="9976" started-at="2020-02-15T15:16:02 BDT" finished-at="2020-02-15T15:16:12 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginpagetitle -->
+        <test-method status="PASS" signature="logintest()[pri:2, instance:com.bitm.Newtours13th.Test.LoginTest@23e028a9]" name="logintest" duration-ms="5375" started-at="2020-02-15T15:16:12 BDT" finished-at="2020-02-15T15:16:17 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.bitm.Newtours13th.Test.LoginTest -->
+      <class name="com.bitm.Newtours13th.Test.FlightFinderTest">
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.bitm.Newtours13th.Test.FlightFinderTest@3dd4520b]" name="checkTitle" duration-ms="4027" started-at="2020-02-15T15:16:17 BDT" finished-at="2020-02-15T15:16:21 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="FindAFlightTest()[pri:2, instance:com.bitm.Newtours13th.Test.FlightFinderTest@3dd4520b]" name="FindAFlightTest" duration-ms="229" started-at="2020-02-15T15:16:21 BDT" finished-at="2020-02-15T15:16:22 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindAFlightTest -->
+      </class> <!-- com.bitm.Newtours13th.Test.FlightFinderTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- NewToursSite Automation Test -->
+</testng-results>
