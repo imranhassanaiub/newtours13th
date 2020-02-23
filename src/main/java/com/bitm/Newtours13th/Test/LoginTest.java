@@ -34,7 +34,7 @@ public class LoginTest {
 		driver.findElement(By.xpath(XpathUtils.Login.PASSWORD)).sendKeys(login.getPassword());
 		driver.findElement(By.xpath(XpathUtils.Login.SIGN_IN_BTN)).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		System.out.println("Login Successfully");
+		System.out.println("Login Successfully in newtours");
 		}
 		}
 }
