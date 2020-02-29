@@ -3,16 +3,9 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [NewToursSite Automation Test]">
   <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="com.bitm.Newtours13th.Test.LoginTest">
-        <methods>
-          <include name="checkloginpagetitle"/>
-          <include name="logintest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.bitm.Newtours13th.Test.LoginTest -->
       <class name="com.bitm.Newtours13th.Test.FlightFinderTest">
         <methods>
           <include name="FindAFlightTest"/>
-          <include name="checkTitle"/>
         </methods>
       </class> <!-- com.bitm.Newtours13th.Test.FlightFinderTest -->
     </classes>
