@@ -32,7 +32,7 @@ public class FlightFinderTest {
 	@Test(dependsOnMethods = "checkFlightFinderPageTitle")
 	public void FindAFlightTest() {
 
-		driver.findElement(By.xpath(XpathUtils.FlightFinder.OneWay_BTN)).sendKeys("test");
+		driver.findElement(By.xpath(XpathUtils.Login.PASSWORD)).sendKeys("test");
 		;
 
 	}

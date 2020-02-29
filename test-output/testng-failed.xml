@@ -5,6 +5,7 @@
     <classes>
       <class name="com.bitm.Newtours13th.Test.FlightFinderTest">
         <methods>
+          <include name="checkFlightFinderPageTitle"/>
           <include name="FindAFlightTest"/>
         </methods>
       </class> <!-- com.bitm.Newtours13th.Test.FlightFinderTest -->

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-NewToursSite_Automation_Test">
-              <span class="suite-name border-passed">NewToursSite Automation Test</span>
+              <span class="suite-name border-failed">NewToursSite Automation Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NewToursSite_Automation_Test" class="hide-methods failed suite-NewToursSite_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-NewToursSite_Automation_Test -->
+                      <a href="#" panel-name="suite-NewToursSite_Automation_Test" class="show-methods failed suite-NewToursSite_Automation_Test"> (show)</a> <!-- show-methods failed suite-NewToursSite_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-NewToursSite_Automation_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NewToursSite_Automation_Test" title="com.bitm.Newtours13th.Test.FlightFinderTest" hash-for-method="FindAFlightTest">FindAFlightTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NewToursSite_Automation_Test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-NewToursSite_Automation_Test" class="show-methods passed suite-NewToursSite_Automation_Test"> (show)</a> <!-- show-methods passed suite-NewToursSite_Automation_Test -->
                     </span>
                     <div class="method-list-content passed suite-NewToursSite_Automation_Test">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-NewToursSite_Automation_Test" title="com.bitm.Newtours13th.Test.FlightFinderTest" hash-for-method="FindAFlightTest">FindAFlightTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-NewToursSite_Automation_Test" title="com.bitm.Newtours13th.Test.FlightFinderTest" hash-for-method="checkFlightFinderPageTitle">checkFlightFinderPageTitle</a> <!-- method navigator-link -->
@@ -132,6 +141,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-NewToursSite_Automation_Test" class="panel NewToursSite_Automation_Test">
+          <div class="suite-NewToursSite_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bitm.Newtours13th.Test.FlightFinderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FindAFlightTest">
+                  </a> <!-- FindAFlightTest -->
+                  <span class="method-name">FindAFlightTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IMRAN-ASUS&apos;, ip: &apos;192.168.5.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20488, moz:profile: C:\Users\imran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bf2007c-5100-4018-8b03-23183674b073
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.bitm.Newtours13th.Test.FlightFinderTest.FindAFlightTest(FlightFinderTest.java:35)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NewToursSite_Automation_Test-class-failed -->
           <div class="suite-NewToursSite_Automation_Test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,13 +207,6 @@
               <span class="class-name">com.bitm.Newtours13th.Test.FlightFinderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="FindAFlightTest">
-                  </a> <!-- FindAFlightTest -->
-                  <span class="method-name">FindAFlightTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="checkFlightFinderPageTitle">
@@ -232,26 +271,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'checkloginpagetitle')
-data.setCell(0, 2, 'com.bitm.Newtours13th.Test.LoginTest')
-data.setCell(0, 3, 10043);
+data.setCell(0, 1, 'FindAFlightTest')
+data.setCell(0, 2, 'com.bitm.Newtours13th.Test.FlightFinderTest')
+data.setCell(0, 3, 10033);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logintest')
+data.setCell(1, 1, 'checkloginpagetitle')
 data.setCell(1, 2, 'com.bitm.Newtours13th.Test.LoginTest')
-data.setCell(1, 3, 5368);
+data.setCell(1, 3, 8429);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkFlightFinderPageTitle')
-data.setCell(2, 2, 'com.bitm.Newtours13th.Test.FlightFinderTest')
-data.setCell(2, 3, 1208);
+data.setCell(2, 1, 'logintest')
+data.setCell(2, 2, 'com.bitm.Newtours13th.Test.LoginTest')
+data.setCell(2, 3, 5404);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'FindAFlightTest')
+data.setCell(3, 1, 'checkFlightFinderPageTitle')
 data.setCell(3, 2, 'com.bitm.Newtours13th.Test.FlightFinderTest')
-data.setCell(3, 3, 36);
+data.setCell(3, 3, 620);
 window.suiteTableData['NewToursSite_Automation_Test']= { tableData: data, tableDiv: 'times-div-NewToursSite_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-NewToursSite_Automation_Test">
               </div> <!-- times-div-NewToursSite_Automation_Test -->
             </div> <!-- times-div -->
@@ -284,18 +323,20 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logintest([LoginDTO [username=tutorial, password=tutorial]])</span>
-                <span class="method-start">11035 ms</span>
+                <span class="method-start">9323 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bitm.Newtours13th.Test.FlightFinderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">checkFlightFinderPageTitle</span>
-                <span class="method-start">16406 ms</span>
+                <span class="method-start">14731 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">FindAFlightTest</span>
-                <span class="method-start">17618 ms</span>
+                <span class="method-start">15353 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
