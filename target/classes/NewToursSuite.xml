@@ -3,10 +3,11 @@
 
 <suite name = "NewToursSite Automation Test">
 
-   <test name = "Login Test">
+   <test name = "NewTours Site Automation Test">
       <classes>
          <class name = "com.bitm.Newtours13th.Test.LoginTest" />
          <class name = "com.bitm.Newtours13th.Test.FlightFinderTest" />
+         <class name = "com.bitm.Newtours13th.Test.SelectFlightTest" />
       </classes>
    </test>
    

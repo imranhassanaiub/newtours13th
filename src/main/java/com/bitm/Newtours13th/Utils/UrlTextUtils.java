@@ -11,6 +11,6 @@ public class UrlTextUtils {
 		
 		public static final String LOGIN_PAGE_TITLE = "Welcome: Mercury Tours";
 		public static final String FlightFinder_PAGE_TITLE = "Find a Flight: Mercury Tours:";
-		
+		public static final String SelectFlight_PAGE_TITLE = "Select a Flight: Mercury Tours";
 	}
 }

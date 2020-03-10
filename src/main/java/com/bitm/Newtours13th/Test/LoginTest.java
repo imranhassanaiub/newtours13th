@@ -21,7 +21,7 @@ public class LoginTest {
 
 	private WebDriver driver = null;
 
-	@Test()
+	@Test
 	public void checkloginpagetitle() {
 		driver = DriverManager.driver;
 		driver.get(UrlTextUtils.URL.BASE_URL);
